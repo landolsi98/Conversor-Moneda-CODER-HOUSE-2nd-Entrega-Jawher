@@ -20,8 +20,8 @@ let deviseDemandee = prompt("ingresa la moneda requerida")
 
 // Declaracion del array
 
-const listaDeMoneda = ["USD" , "usd" , "JPY" , "jpy" , "TND" , "tnd", "EURO" , "euro"];
-
+const listaDeMoneda = ["USD" , "usd" , "JPY" , "jpy" , "TND" , "tnd"];
+listaDeMoneda.push("EURO" , "euro")
 //Objeto
 
 const tipo = {
